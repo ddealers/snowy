@@ -16,7 +16,7 @@
       var b, bf, g, s;
       this.Container_initialize();
       g = new createjs.Graphics();
-      g.beginFill('black');
+      g.beginFill('white');
       g.drawCircle(0, 0, 5);
       s = new createjs.Shape(g);
       bf = new createjs.BlurFilter(5, 5, 1);

@@ -6,7 +6,7 @@ class Flake
 	Flake::initialize = ()->
 		@Container_initialize()
 		g = new createjs.Graphics()
-		g.beginFill 'black'
+		g.beginFill 'white'
 		g.drawCircle 0,0,5
 		s = new createjs.Shape g
 
