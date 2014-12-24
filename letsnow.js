@@ -9,7 +9,7 @@
       var s, t;
       s = document.createElement('canvas');
       s.id = name;
-      s.style.position = 'absolute';
+      s.style.position = 'fixed';
       s.style.zIndex = 100;
       s.style.top = 0;
       s.style.left = 0;
