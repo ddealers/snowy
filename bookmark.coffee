@@ -21,7 +21,7 @@ l = new SnowyLoader
 l.createCanvas 'snowyCanvas'
 cjs = l.setScript 'https://code.createjs.com/createjs-2014.12.12.min.js','head'
 cjs.onload = ->
-	sb = l.setScript 'https://cdn.rawgit.com/ddealers/snowy/master/snowybase.js#1','head'
+	sb = l.setScript 'https://cdn.rawgit.com/ddealers/snowy/v1.0/snowybase.js','head'
 	sb.onload = ->
 		initSnowy()
 initSnowy = ->

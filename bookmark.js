@@ -39,7 +39,7 @@
 
   cjs.onload = function() {
     var sb;
-    sb = l.setScript('https://cdn.rawgit.com/ddealers/snowy/master/snowybase.js#1', 'head');
+    sb = l.setScript('https://cdn.rawgit.com/ddealers/snowy/v1.0/snowybase.js', 'head');
     return sb.onload = function() {
       return initSnowy();
     };
